@@ -92,6 +92,19 @@ cloudops-platform/
 └── README.md
 ```
 
+## Project Screenshots
+
+### Grafana Dashboard
+![Grafana dashboard](docs/screenshots/grafana-dashboard.png)
+
+### Health Check Failure and Recovery
+![Prometheus health check results](docs/screenshots/health-check-failure-and-recovery.png)
+
+### Grafana Alert Notification
+![Firing alert email](docs/screenshots/firing-alert-email.png)
+
+### Alert Resolution
+![Resolved alert email](docs/screenshots/alert-resolved-email.png)
 ## Monitoring and Alerting
 
 Prometheus scrapes the Blackbox Exporter probe for the application health endpoint. Grafana uses the `probe_success` metric to identify failures.
